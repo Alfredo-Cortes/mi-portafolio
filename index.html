@@ -1,66 +1,43 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>J. Alfredo Vallejo Cortés - Portafolio</title>
-  <script src="https://cdn.tailwindcss.com"></script>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>J. Alfredo Vallejo Cortés - Portafolio</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <!-- Fuente opcional bonita -->
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <!-- Íconos (Font Awesome CDN) -->
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
 </head>
-<body class="bg-white text-gray-800 font-sans">
 
-  <header class="text-center p-6 bg-gray-100 shadow">
-    <h1 class="text-3xl font-bold">J. Alfredo Vallejo Cortés</h1>
-    <p class="text-gray-600">Perfil Profesional</p>
-  </header>
+<body>
 
-  <main class="max-w-4xl mx-auto px-4 py-8 space-y-16">
+    <!-- Header con menú -->
+    <header>
+        <div class="logo">J. Alfredo Vallejo Cortés</div>
+        <nav>
+            <a href="#">Inicio</a>
+            <a href="#">Sobre mí</a>
+            <a href="#">Skills</a>
+            <a href="#">Currículum</a>
+            <a href="#">Portafolio</a>
+            <a href="#">Contacto</a>
+        </nav>
+    </header>
 
-    <!-- SOBRE MÍ -->
-    <section id="sobre-mi">
-      <h2 class="text-2xl font-semibold mb-4">Sobre mí</h2>
-      <div class="flex flex-col md:flex-row items-center space-x-0 md:space-x-6 space-y-4 md:space-y-0">
-        <img src="assets/img/FOTOGRAFÍA.jpg" alt="Fotografía profesional" class="w-40 h-40 rounded-full object-cover shadow"/>
-        <p class="text-lg">
-          Soy una persona proactiva con interés en el ámbito administrativo y tecnológico, con experiencia en soporte, automatización y gestión operativa.
-        </p>
-      </div>
-    </section>
+    <!-- Sección principal -->
+    <main class="profile">
+        <img src="assets/img/FOTOGRAFÍA.jpg" alt="Foto Alfredo" class="profile-img"/>
+        <h1>J. Alfredo Vallejo Cortés</h1>
+        <p>Profesional en Tecnología e Ingeniería Informática</p>
+        <div class="social-icons">
+            <a href="#"><i class="fab fa-facebook-f"></i></a>
+            <a href="#"><i class="fab fa-linkedin-in"></i></a>
+            <a href="#"><i class="fab fa-github"></i></a>
+            <a href="#"><i class="fas fa-envelope"></i></a>
+        </div>
+    </main>
 
-    <!-- EXPERIENCIA -->
-    <section id="experiencia">
-      <h2 class="text-2xl font-semibold mb-4">Experiencia</h2>
-      <ul class="list-disc list-inside space-y-2">
-        <li><strong>Empresa A</strong> – Puesto – Año</li>
-        <li><strong>Empresa B</strong> – Puesto – Año</li>
-      </ul>
-    </section>
-
-    <!-- CONOCIMIENTOS Y CERTIFICACIONES -->
-    <section id="certificaciones">
-      <h2 class="text-2xl font-semibold mb-4">Certificaciones</h2>
-      <div class="flex items-center space-x-4">
-        <a href="assets/pdf/TÍTULO PROFESIONAL.pdf" target="_blank" class="hover:underline text-blue-600">
-          <img src="https://img.icons8.com/plasticine/100/000000/pdf.png" alt="PDF" class="w-16 h-16"/>
-        </a>
-        <span class="text-lg">Título Profesional</span>
-      </div>
-    </section>
-
-    <!-- CONTACTO -->
-    <section id="contacto">
-      <h2 class="text-2xl font-semibold mb-4">Contacto</h2>
-      <p class="text-lg">Puedes contactarme por:</p>
-      <ul class="list-inside list-disc">
-        <li>Correo: tu.correo@example.com</li>
-        <li>LinkedIn: <a href="#" class="text-blue-600 hover:underline">linkedin.com/in/tuusuario</a></li>
-        <li>GitHub: <a href="#" class="text-blue-600 hover:underline">github.com/tuusuario</a></li>
-      </ul>
-    </section>
-
-  </main>
-
-  <footer class="text-center p-4 bg-gray-100 text-sm text-gray-500">
-    &copy; 2025 J. Alfredo Vallejo Cortés
-  </footer>
 </body>
 </html>
