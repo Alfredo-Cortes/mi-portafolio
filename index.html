@@ -1,48 +1,43 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>J. Alfredo Vallejo Cortés</title>
-  <link href="css/tailwind.css" rel="stylesheet" />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>Bienvenido a mi Portafolio</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <!-- Fuente opcional bonita -->
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <!-- Íconos (Font Awesome CDN) -->
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
 </head>
-<body class="bg-gray-50 text-gray-800 font-sans">
 
-  <div class="min-h-screen flex flex-col justify-center items-center px-4">
-    <div class="bg-white shadow-lg rounded-2xl p-8 max-w-2xl w-full text-center">
-      <img src="assets/img/FOTOGRAFÍA.jpg" alt="Foto de perfil" class="w-32 h-32 mx-auto rounded-full object-cover border-4 border-gray-300">
-      <h1 class="text-2xl md:text-3xl font-bold mt-4">J. Alfredo Vallejo Cortés</h1>
-      <p class="mt-2 text-gray-600">Profesional con enfoque en tecnologías, automatización y gestión operativa.</p>
+<body>
 
-      <div class="mt-6 flex flex-wrap justify-center gap-4">
-        <a href="#sobre-mi" class="px-4 py-2 bg-gray-200 rounded-full hover:bg-gray-300 transition">Sobre mí</a>
-        <a href="#experiencia" class="px-4 py-2 bg-gray-200 rounded-full hover:bg-gray-300 transition">Experiencia</a>
-        <a href="#certificados" class="px-4 py-2 bg-gray-200 rounded-full hover:bg-gray-300 transition">Certificados</a>
-        <a href="#contacto" class="px-4 py-2 bg-gray-200 rounded-full hover:bg-gray-300 transition">Contacto</a>
-      </div>
-    </div>
+    <!-- Header con menú -->
+    <header>
+        <div class="logo">Mi portafolio</div>
+        <nav>
+            <a href="#">Inicio</a>
+            <a href="#">Sobre mí</a>
+            <a href="#">Skills</a>
+            <a href="#">Currículum</a>
+            <a href="#">Portafolio</a>
+            <a href="#">Contacto</a>
+        </nav>
+    </header>
 
-    <!-- Secciones -->
-    <section id="sobre-mi" class="mt-16 max-w-3xl text-center">
-      <h2 class="text-xl font-semibold mb-4">Sobre mí</h2>
-      <p>Me interesa el desarrollo de soluciones prácticas, el aprendizaje continuo y la colaboración en entornos tecnológicos que permitan optimizar procesos administrativos y operativos.</p>
-    </section>
-
-    <section id="experiencia" class="mt-16 max-w-3xl text-center">
-      <h2 class="text-xl font-semibold mb-4">Experiencia</h2>
-      <p>[Aquí puedes escribir tus experiencias laborales más destacadas]</p>
-    </section>
-
-    <section id="certificados" class="mt-16 max-w-3xl text-center">
-      <h2 class="text-xl font-semibold mb-4">Certificados</h2>
-      <a href="assets/pdf/TÍTULO PROFESIONAL.pdf" target="_blank" class="inline-block mt-2 underline text-blue-600 hover:text-blue-800">Ver título profesional</a>
-    </section>
-
-    <section id="contacto" class="mt-16 max-w-3xl text-center mb-16">
-      <h2 class="text-xl font-semibold mb-4">Contacto</h2>
-      <p>Puedes escribirme a: <a href="mailto:contactoalfredovc@gmail.com" class="text-blue-600 underline">contactoalfredovc@gmail.com</a></p>
-    </section>
-  </div>
+    <!-- Sección principal -->
+    <main class="profile">
+        <img src="assets/img/FOTOGRAFÍA.jpg" alt="Foto Alfredo" class="profile-img"/>
+        <h1>Alfredo Cortés</h1>
+        <p>Profesional en Tecnología e Ingeniería Informática</p>
+        <div class="social-icons">
+            <a href="#"><i class="fab fa-facebook-f"></i></a>
+            <a href="#"><i class="fab fa-linkedin-in"></i></a>
+            <a href="#"><i class="fab fa-github"></i></a>
+            <a href="#"><i class="fas fa-envelope"></i></a>
+        </div>
+    </main>
 
 </body>
 </html>
